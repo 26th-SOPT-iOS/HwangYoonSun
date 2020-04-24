@@ -131,6 +131,7 @@
                                 </state>
                                 <connections>
                                     <action selector="backHome:" destination="ygv-bb-1qm" eventType="touchUpInside" id="3pY-NI-7Ch"/>
+                                    <segue destination="hQv-2p-jB4" kind="presentation" modalPresentationStyle="fullScreen" id="PDz-X8-IIp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -228,6 +229,9 @@
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="qF1-xH-ubB"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="26th-Swift-Basic" width="5906" height="5906"/>
     </resources>
