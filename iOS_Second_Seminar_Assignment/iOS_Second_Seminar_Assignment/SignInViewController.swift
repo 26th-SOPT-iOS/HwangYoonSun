@@ -1,8 +1,8 @@
 //
 //  SignInViewController.swift
-//  iOS_Seminar_Assignment_Two
+//  iOS_Second_Seminar_Assignment
 //
-//  Created by Yoonsun Hwang on 2020/04/20.
+//  Created by Yoonsun Hwang on 2020/04/26.
 //  Copyright © 2020 Yoonsun Hwang. All rights reserved.
 //
 
@@ -15,17 +15,14 @@ class SignInViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
-    @IBOutlet weak var idTextField: UITextField!
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
-//    @IBAction func doneSignup(_ sender: Any) {
-//        let logoutView = self.storyboard?.instantiateViewController(withIdentifier: "loginViewController") as! LoginViewController
-//
-//        self.modalPresentationStyle = .fullScreen
-//        self.modalTransitionStyle = .coverVertical
-//        self.present(logoutView, animated: true, completion: nil)
-//    }
+    @IBAction func backScreen(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)}
+    
+    
     /*
     // MARK: - Navigation
 

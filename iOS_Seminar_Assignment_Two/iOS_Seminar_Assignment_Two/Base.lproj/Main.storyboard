@@ -40,7 +40,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ygv-bb-1qm" kind="push" id="jAF-Ks-trY"/>
+                                    <action selector="goSignup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NAq-O2-3lc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="아이디" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7e-s3-Qba">
@@ -130,7 +130,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="backHome:" destination="ygv-bb-1qm" eventType="touchUpInside" id="3pY-NI-7Ch"/>
+                                    <action selector="doneSignup:" destination="ygv-bb-1qm" eventType="touchUpInside" id="yuG-nu-ROh"/>
                                     <segue destination="hQv-2p-jB4" kind="presentation" modalPresentationStyle="fullScreen" id="PDz-X8-IIp"/>
                                 </connections>
                             </button>

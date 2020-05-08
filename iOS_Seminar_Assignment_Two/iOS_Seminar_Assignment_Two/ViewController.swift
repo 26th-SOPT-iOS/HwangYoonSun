@@ -17,6 +17,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var idTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
-
+    
+    @IBAction func goSignup(_ sender: UIButton) {
+        let goSignupView =
+            self.storyboard?.instantiateViewController(withIdentifier: "signInViewController") as! SignInViewController
+        
+        self.navigationController?.pushViewController(goSignupView, animated: true)
+    }
+    
 }
 
